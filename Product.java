@@ -8,7 +8,7 @@ public class Product implements Serializable {
     private String name;
     private double price;
     private int stockQuantity;
-    private int id;
+    private String id;
     private Client boughtBy;
     private Calendar pusrchaseDate;
     private static int counter = 1;
@@ -17,7 +17,7 @@ public class Product implements Serializable {
         this.name = name;
         this.price = price;
         this.stockQuantity = stockQuantity;
-        this.id = counter++;
+        this.id = "P" + counter++;
     }
 
     public boolean sell(Client client) {
@@ -59,15 +59,15 @@ public class Product implements Serializable {
         return stockQuantity;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
     public String toString() {
-        return "name " + name + " price " + price + " stockQuantity " + stockQuantity + " id " + id;
+        return "Name: " + name + " | Price: " + price + " | stockQuantity: " + stockQuantity + " | ID: " + id;
     }
 }

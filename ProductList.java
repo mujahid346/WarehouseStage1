@@ -18,6 +18,15 @@ public class ProductList implements Serializable {
         }
     }
 
+    public Product search(String id) {
+    for (Object obj : ProductList) {
+        Product p = (Product) obj;
+        if (p.getId().equals(id)) return p;
+    }
+    return null;
+}
+
+
     public boolean insertProduct(Product product) {
         ProductList.add(product);
         return true;

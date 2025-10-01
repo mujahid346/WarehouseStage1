@@ -4,11 +4,10 @@ import java.io.*;
 
 public class ProductList implements Serializable {
     private static final long serialVersionUID = 1L;
-    private List ProductList = new LinkedList();
+    private List<Product> ProductList = new LinkedList<>();
     private static ProductList products;
 
-    private ProductList() {
-    }
+    private ProductList() { }
 
     public static ProductList instance() {
         if (products == null) {

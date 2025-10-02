@@ -1,0 +1,100 @@
+Script started on 2025-10-02 01:08:04+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="176" LINES="15"]
+[?2004h[0;32m@bjpratt16 [0m➜ [1;34m/workspaces/WarehouseStage1 [0;36m([1;31mmain[0;36m) [0m$ jva[K[Kavac *.java
+[?2004l[?2004h[0;32m@bjpratt16 [0m➜ [1;34m/workspaces/WarehouseStage1 [0;36m([1;31mmain[0;36m) [0m$ java UserInterface 
+[?2004lEnter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+1
+Enter client name:
+John Doe] 
+Enter client address:
+1234 S North St
+Added client: Client Name: John Doe | Address: 1234 S North St | ID: C1
+Enter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+1
+Enter client name:
+Jane Smith
+Enter client address:
+321   432`1  1 N South St
+Added client: Client Name: Jane Smith | Address: 4321 N South St | ID: C2
+Enter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+1
+Enter client name:
+Carl Sagan
+Enter client address:
+3456 Milkyw Way   way Ave
+Added client: Client Name: Carl Sagan | Address: 3456 Milkyway Ave | ID: C3
+Enter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+2
+All clients:
+Client Name: John Doe | Address: 1234 S North St | ID: C1
+Client Name: Jane Smith | Address: 4321 N South St | ID: C2
+Client Name: Carl Sagan | Address: 3456 Milkyway Ave | ID: C3
+Enter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+3
+Enter product name:
+Bedding
+Enter price:
+39.99
+Enter quantity:
+12  20
+Added product: Name: Bedding | Price: 39.99 | stockQuantity: 20 | ID: P1
+Enter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+3
+Enter product name:
+Television
+Enter price:
+499.99
+Enter quantity:
+5
+Added product: Name: Television | Price: 499.99 | stockQuantity: 5 | ID: P2
+Enter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+D 3
+Enter product name:
+Desktop Computer
+Enter price:
+659.99
+Enter quantity:
+10
+Added product: Name: Desktop Computer | Price: 659.99 | stockQuantity: 10 | ID: P3
+Enter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+5 4
+All products:
+Name: Bedding | Price: 39.99 | stockQuantity: 20 | ID: P1
+Name: Television | Price: 499.99 | stockQuantity: 5 | ID: P2
+Name: Desktop Computer | Price: 659.99 | stockQuantity: 10 | ID: P3
+Enter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+5
+Enter client ID:
+C3
+Enter product ID:
+P2
+Enter quantity:
+1
+Added product P2 x1 to client C3's wishlist.
+Enter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+5
+Enter client ID:
+C2
+Enter product ID:
+P1
+Enter quantity:
+3
+Added product P1 x3 to client C2's wishlist.
+Enter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+6
+Enter client ID:
+C2
+Wishlist for client C2:
+WishlistItem{Product Name: Bedding | ProductId: P1 | Qty: 3}
+Enter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+6
+Enter client ID:
+C3
+Wishlist for client C3:
+WishlistItem{Product Name: Television | ProductId: P2 | Qty: 1}
+Enter command: 1 to add client, 2 to display clients, 3 to add product, 4 to display products 5 to add a product to wishlist, 6 to display a client's wishlist, 0 to exit
+0
+Exiting...
+[?2004h[0;32m@bjpratt16 [0m➜ [1;34m/workspaces/WarehouseStage1 [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
+
+Script done on 2025-10-02 01:11:13+00:00 [COMMAND_EXIT_CODE="0"]
